@@ -1,0 +1,15 @@
+
+		// doesn't work 
+		// this.buttonElem.addEventListener('click', () => this.toggle);
+
+		// works
+		// this.buttonElem.addEventListener('click', () => {
+		// 	this.status = this.status === 'online' ? 'offline' : 'online';
+		// 	this.statusElem.innerHTML = this.status;
+		// 	console.log(this.status);
+		// });
+
+		// works
+		// this.buttonElem.addEventListener('click', () => {
+		// 	this.toggle();
+		// });

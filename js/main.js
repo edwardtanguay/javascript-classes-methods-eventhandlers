@@ -1,7 +1,6 @@
-import './InfoBox.js';
-import { InfoBox } from './InfoBox.js'; 
+import { StatusBox } from './StatusBox.js';
 
-const contentElem = document.querySelector('.content');
-const infoBox = new InfoBox('Info', 'This is the info.');
+	const contentElem = document.querySelector('.content');
+	const statusBox = new StatusBox(contentElem);
+	// statusBox.toggle(); // works
 
-contentElem.innerHTML = infoBox.display();

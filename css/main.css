@@ -1,0 +1,26 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.4rem;
+	padding: 20px;
+}
+
+div.infoBox {
+	background: #eee;
+	padding: 20px;
+	width: 400px;
+	border-radius: 5px;
+}
+
+div.title {
+	font-size: 1.8rem;
+	color: brown;
+	background: #ddd;
+	padding: 3px;
+	margin: 0 0 5px 0;
+}
+
+button {
+	margin: 10px 0 0 0;
+	font-size: 1rem;
+	padding: 3px;
+}
